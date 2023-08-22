@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.ico">
+    <title>Education Tutorial Blog</title>
+    <style>
+        h2{
+            background-color: chartreuse;
+            padding: 15px;       
+        }
+        h2:hover{
+            text-transform: uppercase;
+            text-shadow: 2px 1px white;
+            text-decoration-line:underline;
+            text-indent: 15px;
+        }
+        p:last-child{
+            padding: 10px;
+            background-color: purple;
+            text-align: center;
+            color: white;
+            border-color: black;
+            border-width: thick;
+            border-style: ridge;
+            border-width: 5px ;
+            border-radius: 10px;
+            margin: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;      
+        } 
+        .relative{
+            position: relative;
+        }
+        .absolute{
+            position: absolute;
+            right: 30px;
+        }
+
+
+        @media not ((min-width:300px)){
+            h2{
+                color: aliceblue;
+            }
+        }
+        @media print {
+            div{
+                background-color: rgb(160, 216, 198);
+            }
+        }
+        
+        ul{
+            list-style-image: url("favicon.png");
+        }
+
+    </style>
+    
+</head>
+<body>
+    <h2>Education Tutorial Blog
+        <span class="relative" style="float: right;">
+            <i class="bi bi-share"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+            <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg>
+            <span class="absolute">
+                <i class="bi bi-search"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg> 
+            </span>
+        </span>
+        
+    </h2>
+    <div class="whole">
+        <hr>
+        <h4>How to design favicon using favicon.cc</h4>
+        <p>Following are the steps to design favicons</p>
+        <ul>
+                <li>Open your web browser and navigate to the favicon.cc website. The URL is https://www.favicon.cc/.</li>
+                <li>On the favicon.cc homepage, you will see a canvas grid representing the favicon. Each grid cell represents a pixel in the favicon.</li>
+                <li>Use the various tools provided on the right side of the screen to design your favicon. You can select colors, draw shapes.</li>
+                <li>To select a color, click on the color palette tool and choose a color from the available options. You can also enter a specific color code if you have one.</li>
+                <li>Use the other editing tools such as the transparent , move  to further refine your favicon design.</li>
+                <li>As you make changes, the favicon preview will be shown in preview box which was located below the canvas grid and also will be visible in the current page tab. </li>
+                <li>Once you are satisfied with your favicon design, click on the "Download Favicon" button located below the canvas grid.</li>
+                <li>Save the favicon file to your computer. It will be downloaded in a .ico format, which is the standard file format for favicons.</li>
+                <li>Finally, upload the favicon.ico file to your website's root directory. </li>
+        </ul>        
+        <p id="footer">its the end do do do do do</p>    
+    </div>
+    
+</body>
+</html>

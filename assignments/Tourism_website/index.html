@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TourTastic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/Tourism_favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body style="background-color: black;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="Image">
+        <img src="/images/bird.png" alt="birdimg" style="width:200px; height:160px; transform: scaleX(-1);">
+      </div>
+      <div class="Image2">
+        <img src="/images/airplane.png" alt="planeimg" style="width:120px; height:80px;">
+      </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tour Tastic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-xs-0">
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">PlanTour</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">AboutUs</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">ContactUs</a>
+                </li>
+            </ul>                          
+        <form class="d-flex" role="Login/SignUp">            
+            <button class="btn btn-outline-success" type="submit">Login/SignUp</button>
+        </form>                       
+        </div>
+      </div>
+        
+    </nav>
+    <div id="carouselExample" class="carousel slide m-3">
+        <div class="carousel-inner"> 
+            <div class="carousel-item ">
+                <img src="/images/tour5.jpg" class="d-block w-100" alt="tourpic" style="width: 90%; height:500px; object-fit:cover;" >
+            </div>  
+            <div class="carousel-item active">
+                <img src="/images/tour3.jpg" class="d-block w-100" alt="tourpic" style="width: 90%; height:500px; object-fit:cover;">
+            </div>
+            <div class="carousel-item ">
+                <img src="/images/tour4.jpg" class="d-block w-100" alt="tourpic" style="width: 90%; height:500px; object-fit:cover;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="card m-4">
+      <div class="card-header">
+        <b>Let's Plan!</b>
+      </div>
+      <form class="row g-3 m-2">
+        <div class="col-md-6">
+          <label for="fromLocation" class="form-label"><b>From</b></label>
+          <input type="text" class="form-control" id="fromLocation" placeholder="From">
+        </div>
+        <div class="col-md-6">
+          <label for="toLocation" class="form-label"><b>To</b></label>
+          <input type="text" class="form-control" id="toLocation" placeholder="To">
+        </div>
+        <div class="col">
+          <label for="date" class="form-label"><b>Date</b></label>
+          <input type="date" class="form-control" id="date" placeholder="dd/mm/yy">
+        </div>
+        <div class="col">
+          <label for="passengerNo" class="form-label"><b>No. of Passengers</b></label>
+          <input type="number" class="form-control" id="passengerNo" placeholder="no. of passengers ">
+        </div>
+        <div class="col-12">
+          <label for="mode" class="form-label"><b>Mode</b></label>
+          <select id="mode" class="form-select">
+            <option selected>Choose...</option>
+            <option>Bus</option>
+            <option>Car</option>
+            <option>Train</option>
+            <option>Flight</option>
+          </select>
+        </div>
+        <div class="col-12 mt-4">
+          <button type="submit" class="btn btn-success">Check Options</button>
+        </div>
+      </form>
+    </div>
+    <div class="row m-3">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Andhra Pradesh Tour Packages</h5>
+            <p class="card-text">If you are looking for a memorable Andhra Pradesh trip, TourTastic packages are the right choice for you. TourTastic offers the widest range of customizable Andhra Pradesh tour to suit every kind of traveler from anypart of the world.</p>
+            <a href="#" class="btn btn-success">Book now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Kerala Tour Packages</h5>
+            <p class="card-text">If you are looking for a memorable Kerala trip, TourTastic packages are the right choice for you. TourTastic offers the widest range of customizable Kerala tour to suit every kind of traveler from anypart of the world.</p>
+            <a href="#" class="btn btn-success">Book now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-3">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Maldives Tour Packages</h5>
+            <p class="card-text">If you are looking for a memorable Maldives  trip, TourTastic packages are the right choice for you. TourTastic offers the widest range of customizable Maldives  tour to suit every kind of traveler from anypart of the world.</p>
+            <a href="#" class="btn btn-success">Book now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Badrinath Kedarnath Tour Packages</h5>
+            <p class="card-text">If you are looking for a memorable Badrinath Kedarnath trip, TourTastic packages are the right choice for you. TourTastic offers the widest range of customizable Badrinath Kedarnath tour to suit every kind of traveler from anypart of the world.</p>
+            <a href="#" class="btn btn-success">Book now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

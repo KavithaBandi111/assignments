@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey-form.freecodecamp.rocks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+    <form action="" id="survey-form">
+        <fieldset>
+        <label for="name-label">Name
+        <input type="text" id="name-label" name="fullName" placeholder="Enter your Name" required/></label>
+        <label for="email-label">Email
+        <input type="email" id="email-label" name="mailId" placeholder="Enter your Email" required /></label>
+        <label for="number-label">Age(optional)
+        <input type="number" id="number-label" name="age" placeholder="Age" /></label>
+
+        <label for="currentRole">Which option best describes your current role?</label>        
+        <select id="currentRole">
+            <option value=" " name="choseoneofthem">Select current role</option>
+            <option value="1" name="option1">Student</option>
+            <option value="2" name="option2">Full Time Job</option>
+            <option value="3" name="option3">Full Time Learner</option>
+            <option value="4" name="option4">Prefer not to say</option>
+            <option value="5" name="option5">Other</option>
+        </select>
+        <label for="reference">Would you recommend freeCodeCamp to a friend?</label>
+         <label for="reference1"><input type="radio" id="reference1" name="reference" class="inline"/>Definitely</label>
+         <label for="reference2"><input type="radio" id="reference2" name="reference" class="inline"/>Maybe</label>
+         <label for="reference3"><input type="radio" id="reference3" name="reference" class="inline"/>Not sure</label>
+
+        <label for="favFeature">What is your favorite feature of freeCodeCamp?</label>        
+        <select id="favFeature">
+            <option value="fav " name="chosebelow">Select an option</option>
+            <option value="fav1" name="orite1">Challenges</option>
+            <option value="fav2" name="orite2">Project</option>
+            <option value="fav3" name="orite3">Community</option>
+            <option value="fav4" name="orite4">Open Source</option>            
+        </select>
+        <label for="feedback">What would you like to see improved? (Check all that apply)</label>
+        <input type="checkbox" id="feedback1" name="feedback">Front-end Projects</input>
+        <input type="checkbox" id="feedback2" name="feedback">Back-end Projects</input>
+        <input type="checkbox" id="feedback3" name="feedback">Data Visualization</input>
+        <input type="checkbox" id="feedback4" name="feedback">Challenges</input>
+        <input type="checkbox" id="feedback5" name="feedback">Open Source Community</input>
+        <input type="checkbox" id="feedback6" name="feedback">Gitter help rooms</input>
+        <input type="checkbox" id="feedback7" name="feedback">Videos</input>
+        <input type="checkbox" id="feedback8" name="feedback">City Meetups</input>
+        <input type="checkbox" id="feedback9" name="feedback">Wiki</input>
+        <input type="checkbox" id="feedback10" name="feedback">Forum</input>
+        <input type="checkbox" id="feedback11" name="feedback">Additional Courses</input>
+        <label for="suggestions">Any comments or suggestions?</label>
+        <textarea name="suggestions" id="suggestions" cols="30" rows="10" placeholder="Enter your comment here"></textarea>
+    </fieldset>
+    <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

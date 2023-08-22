@@ -1,0 +1,62 @@
+body{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg) no-repeat center fixed;
+  color: #f3f3f3;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-size: cover;
+}
+p{
+  font-size: 20px;
+  font-style: oblique;
+}
+label,input,select,textarea{
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding:10px 0px;
+} 
+fieldset{
+  background-color: #1b1b32cc;
+  width:720px;
+  margin: 30px auto 0;
+  border-radius: 5px;
+  border: none;
+  padding: 40px 40px 0 40px;
+}
+div{
+  margin: 0 0 15px 0;
+}
+input{
+  padding:6px 12px;
+  font-size: 20px;
+  background-color: #ffffff;
+  border:1px solid #ced4da;
+
+}
+.header{
+  padding:15px 0 0 ;
+  text-align: center;
+}
+input[type=submit]{
+  background-color: #37af65;
+  padding: 12px;
+  color: #f3f3f3;
+  border-color: #37af65;
+}
+*{
+  box-sizing: border-box;
+}
+.inline,.feedback{
+    width:unset;
+    margin: 0;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    display: unset;
+    
+}
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,22 @@
+
+.navbar{
+  position: relative;
+  height: 65px;
+  width: 100%;
+}
+.Image{
+  position: absolute;
+  left:400px;
+  bottom: 0px;
+  padding: 5px;       
+}
+.Image2{
+  position: absolute;
+  
+  opacity: 0.6;
+  rotate: 10deg;
+  
+}
+.card-body {
+  height: 200px; 
+}
